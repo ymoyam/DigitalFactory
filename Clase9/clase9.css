@@ -1,0 +1,21 @@
+.hijo_1, .hijo_2, .hijo_3{
+  height: 100px;
+  width: 100px;
+}
+.hijo_1{
+  background-color:yellow;
+  order:0;
+}
+.hijo_2{
+  background-color:red;
+  order:-9;
+}
+.hijo_3{
+  background-color:orange;
+}
+.padre{
+  padding: 5px;
+  background-color: blue;
+  display:flex;
+  flex-flow: row nowrap; /* ljhdf */
+}
