@@ -1,0 +1,28 @@
+/* Mobile */
+body{
+  background-color: yellow;
+}
+h1{
+  color:red
+}
+
+
+/* Tablet */
+@media only screen and (min-width:501px){
+  body{
+    background-color: magenta;
+  }
+  h1{
+    color:white;
+  }
+  .solo_movil{
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width:960px){
+  body{
+    background-color: green;
+  }
+}

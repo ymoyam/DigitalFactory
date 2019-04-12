@@ -1,0 +1,28 @@
+.grid{
+  /* Generar una matriz de 2x2 */
+  display: grid;
+  grid-template-columns: repeat(2, 100px); /* 100px 100px*/
+  grid-template-rows: repeat(2, 50px 100px); /* 50px 100px*/
+  color:white;
+}
+.grid2{
+  /* Matriz de 3x2*/
+  display: grid;
+  grid-template-areas: "head head" "menu main" "foot foot";
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.a{
+  background-color: blue;
+  grid-column-start:2;
+  grid-row-end:2;
+}
+.b{
+  background-color: orange;
+}
+.c{
+  background-color: green;
+}
+.d{
+  background-color: red;
+}
